@@ -5,6 +5,7 @@
 /Users/gh/Desktop/新开始/workspace/gh_health/health_parent/health_common/src/main/java/com/gh/pojo/Permission.java
 /Users/gh/Desktop/新开始/workspace/gh_health/health_parent/health_common/src/main/java/com/gh/entity/QueryPageBean.java
 /Users/gh/Desktop/新开始/workspace/gh_health/health_parent/health_common/src/main/java/com/gh/pojo/CheckItem.java
+/Users/gh/Desktop/新开始/workspace/gh_health/health_parent/health_common/src/main/java/com/gh/utils/SMSUtils.java
 /Users/gh/Desktop/新开始/workspace/gh_health/health_parent/health_common/src/main/java/com/gh/pojo/User.java
 /Users/gh/Desktop/新开始/workspace/gh_health/health_parent/health_common/src/main/java/com/gh/pojo/Setmeal.java
 /Users/gh/Desktop/新开始/workspace/gh_health/health_parent/health_common/src/main/java/com/gh/entity/PageResult.java
@@ -12,6 +13,8 @@
 /Users/gh/Desktop/新开始/workspace/gh_health/health_parent/health_common/src/main/java/com/gh/pojo/Order.java
 /Users/gh/Desktop/新开始/workspace/gh_health/health_parent/health_common/src/main/java/com/gh/constant/RedisConstant.java
 /Users/gh/Desktop/新开始/workspace/gh_health/health_parent/health_common/src/main/java/com/gh/utils/POIUtils.java
+/Users/gh/Desktop/新开始/workspace/gh_health/health_parent/health_common/src/main/java/com/gh/constant/RedisMessageConstant.java
+/Users/gh/Desktop/新开始/workspace/gh_health/health_parent/health_common/src/main/java/com/gh/utils/ValidateCodeUtils.java
 /Users/gh/Desktop/新开始/workspace/gh_health/health_parent/health_common/src/main/java/com/gh/pojo/CheckGroup.java
 /Users/gh/Desktop/新开始/workspace/gh_health/health_parent/health_common/src/main/java/com/gh/pojo/Role.java
 /Users/gh/Desktop/新开始/workspace/gh_health/health_parent/health_common/src/main/java/com/gh/pojo/OrderSetting.java

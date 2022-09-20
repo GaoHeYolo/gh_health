@@ -11,4 +11,6 @@ public interface SetmealDao {
     public void add(Setmeal setmeal);
     public void setSetmealAndCheckGroup(Map map);
     public Page<Setmeal> findByCondition(String queryString);
+    public List<Setmeal> findAll();
+    public Setmeal findById(Integer id);
 }
