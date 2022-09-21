@@ -34,7 +34,7 @@ public class SetmealController {
     @RequestMapping("/findById")
     public Result findById(Integer id){
         try {
-            Setmeal setmeal=setmealService.findById(id);
+            Setmeal setmeal=setmealService.findById4Detail(id);
             return new Result(true,MessageConstant.QUERY_SETMEAL_SUCCESS,setmeal);
         }catch (Exception e){
             e.printStackTrace();
