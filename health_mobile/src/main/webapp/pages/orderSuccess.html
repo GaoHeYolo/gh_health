@@ -66,8 +66,13 @@
                 orderInfo:{}
             },
             mounted(){
-                axios.post("/order/findById.do?id=" + id).then((response) => {
-                    this.orderInfo = response.data.data;
+                //发送ajax请求，根据预约ID查询预约相关信息，用于页面展示
+                axios.post("/order/findById.do?id=" + id).then((res) => {
+                    if (res.data.flag){
+                        this.orderInfo = res.data.data;
+                    }else {
+                        this.$message.error(res.data.message);
+                    }
                 });
             }
         });

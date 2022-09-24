@@ -23,4 +23,14 @@
     <select id="getOrderSettingByMonth" parameterType="map" resultType="com.gh.pojo.OrderSetting">
         select * from t_ordersetting where orderDate between #{begin} and #{end}
     </select>
+
+    <update id="editReservationsByOrderDate" parameterType="com.gh.pojo.OrderSetting">
+        update t_ordersetting
+        set reservations =#{reservations}
+        where orderDate = #{orderDate}
+    </update>
+
+    <select id="findByOrderDate" parameterType="date" resultType="com.gh.pojo.OrderSetting">
+        select * from t_ordersetting where orderDate=#{orderDate}
+    </select>
 </mapper>

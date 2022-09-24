@@ -43,9 +43,9 @@ function getSpecifiedDate(date,days) {
  2--第二位可为3,4,5,7,8,中的任意一位；
  3--最后以0-9的9个整数结尾。
  */
-function checkTelephone(telephone) {
-    var reg=/^[1][3,4,5,7,8][0-9]{9}$/;
-    if (!reg.test(telephone)) {
+function checkEmail(EmailAddress) {
+    var reg=/^[a-zA-Z0-9_.-]+@[a-zA-Z0-9-]+(\.[a-zA-Z0-9-]+)*\.[a-zA-Z0-9]{2,6}$/;
+    if (!reg.test(EmailAddress)) {
         return false;
     } else {
         return true;
